@@ -13,7 +13,7 @@ app.get("/", (req, res) => {
 
 // socket connection
 io.on('connection', (socket) => {
-	console.log("Demo - A user connected Working!");
+	console.log("Demo - A user connected Working!1");
 
 	// executes when a user starts typing
 	socket.on('userTyping', (username) => {
